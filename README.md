@@ -3,4 +3,4 @@ High Performance Computing: Multithreaded approach to searching through a PNG fo
 
 The program uses the Open MP multithreading library to process the entire image in considerably less time than a serial approach would take. The job was run on Miami University's supercomputing cluster, using the PBS (Portable Batch System) job scheduler. The system was run using 1, 4, and 8 threads, and the outputs of reach run were the same. 
 
-PNG.cpp and PNG.h are classes provided by my professor, but all other code contained in the project is my own.
+PNG.cpp and PNG.h are classes provided by my professor, but all other code contained in the project is my own. Most of the processing is done in the file homework7.cpp
